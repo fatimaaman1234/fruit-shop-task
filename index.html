@@ -17,12 +17,12 @@
     <main>
         <section class="amount">
             <p>I have Rs.</p>
-            <input type="text">
+            <input type="text" id="pocket">
         </section>
 
         <section class="total-Rs">
             <p>Your total is Rs.</p>
-            <input type="text">
+            <input type="text" id="total">
         </section>
 
         <section class="shop">
@@ -34,9 +34,9 @@
                     <img src="images/apple.jpg" alt="apple">
                     <figcaption>Apple</figcaption>
                     <div id="btn">
-                        <button id="minus">-</button>
-                        <input type="text">
-                        <button id="plus">+</button>
+                        <button id="minus" onclick="minusApple()">-</button>
+                        <input type="text" id="appleqnty" value="0" >
+                        <button id="plus" onclick="plusApple()">+</button>
                     </div>
                 </figure>
             </div>
@@ -48,9 +48,9 @@
                     <img src="images/orange.jpg" alt="orange" id="orange">
                     <figcaption>Orange</figcaption>
                     <div id="btn">
-                        <button id="minus">-</button>
-                        <input type="text">
-                        <button id="plus">+</button>
+                        <button id="minus" onclick="minusOrange()">-</button>
+                        <input type="text" id="orangeqnty" value="0">
+                        <button id="plus" onclick="plusOrange()">+</button>
                     </div>
                 </figure>
             </div>
@@ -62,15 +62,14 @@
                     <img src="images/Banana.png" alt="Banana">
                     <figcaption>Banana</figcaption>
                     <div id="btn">
-                        <button id="minus">-</button>
-                        <input type="text">
-                        <button id="plus">+</button>
+                        <button id="minus" onclick="minusBanana()">-</button>
+                        <input type="text" id="bananaqnty" value="0">
+                        <button id="plus" onclick="plusBanana()">+</button>
                     </div>
                 </figure>
             </div>
         </section>
     </main>
-
     <script src="script.js"></script>
 </body>
 
