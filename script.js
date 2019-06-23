@@ -34,6 +34,8 @@ function minusBanana(){
     document.querySelector("#bananaqnty").value = --noOfBanana;
 }
 
+// WIP-JS
+
 
 
 
